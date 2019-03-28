@@ -1,33 +1,34 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.StudyBetterBG {
+	width: 100%;
+	height: 100%;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+.image{
+	position: relative;
+	width: 100%;
 }
+
+.logo{
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	width: 180px;
+	height: 120px;
+}
+
+.Study-Better {
+	position: absolute;
+	width: 372px;
+	height: 76px;
+	right: 719px;
+	text-align: center;
+	font-family: HelveticaNeue;
+	font-size: 64px;
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+  }
