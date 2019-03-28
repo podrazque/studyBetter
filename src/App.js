@@ -11,7 +11,7 @@ import AboutUs from "./components/pages/AboutUs";
 
 
 const App = () => (
-	<div>
+	<div className="ui container">
 		<Route path="/" exact component={HomePage} />
 		<Route path="/login" exact component={LoginPage} />
 		<Route path="/signup" exact component={SignUpPage} />
